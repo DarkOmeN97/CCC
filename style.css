@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightskyblue;
+    height: 600px;
+}
+
+.img-1 {
+    width: 100%;
+    height: 300px;
+}
+
+.section-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    /* padding-left: 10px; */
+    padding: 20px;
+}
+
+.button1 {
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.para1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.design-section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    justify-items: center;
+    padding-bottom: 10px;
+}
+
+.svg-icon-sec2 {
+    width: 30px;
+    height: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.design-section-4 {
+    display: flex;
+    gap: 200px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+
+.design-2-section-2 {
+    padding-left: 20px;
+}
+
+.design-section-3 {
+    background-color: lightpink;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sec-3-img {
+    width: 100%;
+    height: 300px;
+    padding: 20px
+}
+
+.sec-3-content {
+    padding-top: 20px;
+    width: 90%;
+}
+
+.section-3-heading {
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.section-2 {
+    padding: 30px;
+}
+
+.player-1 {
+    /* justify-content: start; */
+    padding-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.player-2 {
+    justify-content: center;
+    /* padding-left: 30px; */
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+    padding: 20px;
+}
+
+.player-3 {
+    justify-content: flex-end;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+    padding: 20px;
+}
+
+.section-4 {
+    background-color: lightyellow;
+    height: 400px;
+    padding: 20px;
+}
+
+.something {
+    width: 100%;
+}
+
+.foresaken {
+    width: 100%;
+}
+
+.W-game {
+    padding-bottom: 20px;
+}
